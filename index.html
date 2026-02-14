@@ -36,7 +36,8 @@ body {
 <body>
 
 <!-- NAVBAR -->
-<nav class="fixed w-full z-50 glass border-b border-slate-800/50 px-10 py-4">
+<nav class="fixed w-full z-50 glass border-b border-slate-800/50 px-10 py-4 flex items-center">
+
     <div class="flex items-center gap-4">
 
         <img src="./mujlogo.jpg"
@@ -53,6 +54,14 @@ body {
         </div>
 
     </div>
+
+    <!-- LIVE APP BUTTON -->
+    <a href="https://man-sathi-website.onrender.com"
+       target="_blank"
+       class="ml-auto px-6 py-2 bg-blue-600 rounded-full text-xs font-bold hover:bg-blue-500 transition">
+       Launch App
+    </a>
+
 </nav>
 
 <main class="max-w-7xl mx-auto px-8 pt-52 pb-32 space-y-40">
@@ -70,73 +79,6 @@ body {
         </span>
     </h1>
 
-    <p class="text-slate-400 max-w-3xl mx-auto italic text-lg leading-relaxed border-l-2 border-blue-500/30 pl-6 text-left">
-        <strong>Project Statement:</strong><br>
-        Can a student-centric digital platform integrate mood tracking, music therapy,
-        journaling, relaxation tools, and motivational support to provide private,
-        accessible, and effective mental wellness support for students?
-    </p>
-
-</section>
-
-<!-- PROBLEM + LITERATURE + GAP -->
-<section class="grid lg:grid-cols-2 gap-16 items-start">
-
-    <div class="glass p-12 rounded-[3rem] border-2 border-blue-600 min-h-[420px]">
-
-        <h2 class="text-4xl font-extrabold mb-6">Problem Statement</h2>
-
-        <p class="text-slate-400 leading-relaxed text-lg">
-            College students face increasing levels of stress, anxiety, and emotional burnout due to academic pressure,
-            social expectations, and lifestyle imbalance. Existing mental health applications are often paid,
-            lack personalization, or focus only on limited features such as meditation or chat support.
-            Students need a private, accessible, and student-focused platform integrating mood tracking,
-            music therapy, journaling, relaxation tools, and motivational support.
-        </p>
-
-        <ul class="list-disc pl-6 mt-6 text-slate-400 space-y-2">
-            <li>Increasing stress and anxiety among students</li>
-            <li>Lack of affordable mental wellness solutions</li>
-            <li>Limited personalization in existing apps</li>
-            <li>Stigma and hesitation in seeking therapy</li>
-        </ul>
-
-    </div>
-
-    <div class="flex flex-col gap-10">
-
-        <!-- LITERATURE REVIEW -->
-        <div class="glass p-10 rounded-[2.5rem] border-2 border-blue-500 min-h-[200px]">
-
-            <h3 class="text-blue-400 font-bold text-sm uppercase tracking-widest mb-4">
-                Literature Review / Market Research
-            </h3>
-
-            <p class="text-slate-400 italic">
-                Apps like Wysa provide AI chatbot mental health support. Headspace and Calm offer meditation tools but are paid.
-                Endel provides personalized music but is not student-focused. WHO and NIMHANS research shows music therapy
-                helps reduce anxiety and improve concentration. However, there is no unified student-focused mental wellness platform.
-            </p>
-
-        </div>
-
-        <!-- RESEARCH GAP -->
-        <div class="glass p-10 rounded-[2.5rem] border-2 border-purple-500 min-h-[200px]">
-
-            <h3 class="text-purple-400 font-bold text-sm uppercase tracking-widest mb-4">
-                Research Gap / Innovation
-            </h3>
-
-            <p class="text-slate-400 italic">
-                Existing apps focus on individual features such as meditation, chatbots, or music.
-                This project creates a unified student-centric mental wellness platform integrating mood tracking,
-                music therapy, journaling, relaxation tools, motivational content, and progress tracking.
-            </p>
-
-        </div>
-
-    </div>
-
 </section>
 
 <!-- SYSTEM METHODOLOGY -->
@@ -148,39 +90,7 @@ body {
 
     <div class="grid md:grid-cols-3 gap-16 mt-20">
 
-        <!-- DATASET -->
-        <div class="glass p-12 rounded-[2.5rem] text-center border border-slate-700 min-h-[260px] flex flex-col justify-center">
-
-            <i class="fas fa-database text-blue-500 text-4xl mb-6"></i>
-
-            <h3 class="font-bold mb-4 uppercase tracking-widest text-sm">
-                Input Data
-            </h3>
-
-            <p class="text-slate-500 italic text-sm">
-                User mood entries, journaling input, relaxation activity usage,
-                and music preferences collected through the app.
-            </p>
-
-        </div>
-
-        <!-- SYSTEM -->
-        <div class="glass p-12 rounded-[2.5rem] text-center border border-slate-700 min-h-[260px] flex flex-col justify-center">
-
-            <i class="fas fa-microchip text-purple-500 text-4xl mb-6"></i>
-
-            <h3 class="font-bold mb-4 uppercase tracking-widest text-sm">
-                System Architecture
-            </h3>
-
-            <p class="text-slate-500 italic text-sm">
-                Mood tracking analyzes emotions and recommends personalized music,
-                journaling tools, relaxation exercises, and motivational content.
-            </p>
-
-        </div>
-
-        <!-- EXECUTION -->
+        <!-- EXECUTION CARD -->
         <div class="glass p-12 rounded-[2.5rem] text-center border border-green-600 bg-green-900/10 min-h-[260px] flex flex-col justify-center">
 
             <i class="fab fa-github text-green-400 text-4xl mb-6"></i>
@@ -189,14 +99,18 @@ body {
                 Application Execution
             </h3>
 
-            <p class="text-slate-500 italic text-sm mb-4">
-                Software interface provides mood tracking, music therapy, journaling,
-                relaxation tools, and progress dashboard.
+            <p class="text-slate-500 italic text-sm mb-6">
+                Click below to launch the live Man Saathi mental wellness platform.
             </p>
 
-            <button class="px-6 py-2 bg-green-600 rounded-full text-xs font-bold opacity-50 cursor-not-allowed">
-                DEMO VERSION
-            </button>
+            <!-- WORKING BUTTON -->
+            <a href="https://man-sathi-website.onrender.com"
+               target="_blank"
+               class="inline-block px-8 py-3 bg-green-600 rounded-full text-sm font-bold hover:bg-green-500 transition shadow-lg">
+
+               OPEN LIVE DEMO
+
+            </a>
 
         </div>
 
@@ -211,90 +125,8 @@ body {
         Results & Analysis
     </h2>
 
-    <div class="grid md:grid-cols-2 gap-16 items-center">
-
-        <div class="h-80">
-            <canvas id="resultsChart"></canvas>
-        </div>
-
-        <div>
-
-            <div class="p-6 rounded-2xl bg-white/5 border border-white/10 mb-6">
-
-                <span class="text-slate-400 uppercase text-xs tracking-widest">
-                    Student Wellness Improvement
-                </span>
-
-                <div class="text-blue-400 font-black text-4xl mt-2">
-                    85%
-                </div>
-
-            </div>
-
-            <p class="text-slate-500 italic text-sm">
-                Students using the platform showed improved emotional awareness,
-                reduced stress, and increased engagement in mental wellness activities.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- TEAM -->
-<section class="text-center pt-20 border-t border-slate-800">
-
-    <h2 class="text-sm font-bold text-slate-400 uppercase tracking-[0.4em] mb-12">
-        Academic Credits
-    </h2>
-
-    <div class="flex flex-wrap justify-center gap-12">
-
-        <div class="glass px-12 py-8 rounded-[2rem] border-b-4 border-blue-600 min-w-[250px]">
-
-            <p class="text-xs text-blue-400 uppercase tracking-widest mb-2">
-                Project Guide
-            </p>
-
-            <p class="font-black text-xl">
-                Shweta Sharma
-            </p>
-
-        </div>
-
-        <div class="glass px-12 py-8 rounded-[2rem] border-b-4 border-slate-700 min-w-[250px]">
-
-            <p class="text-xs text-slate-400 uppercase tracking-widest mb-2">
-                Team Member 1
-            </p>
-
-            <p class="font-black text-xl">
-                Tanishka Singh
-            </p>
-
-            <p class="text-xs text-slate-500 mt-1">
-                2427030510
-            </p>
-
-        </div>
-
-        <div class="glass px-12 py-8 rounded-[2rem] border-b-4 border-purple-600 min-w-[250px]">
-
-            <p class="text-xs text-purple-400 uppercase tracking-widest mb-2">
-                Team Member 2
-            </p>
-
-            <p class="font-black text-xl">
-                Saanvi Bansal
-            </p>
-
-            <p class="text-xs text-slate-500 mt-1">
-                2427030500
-            </p>
-
-        </div>
-
+    <div class="h-80">
+        <canvas id="resultsChart"></canvas>
     </div>
 
 </section>
@@ -333,14 +165,10 @@ new Chart(ctx, {
         responsive: true,
         maintainAspectRatio: false,
         plugins: {
-            legend: {
-                display: false
-            }
+            legend: { display: false }
         },
         scales: {
-            y: {
-                beginAtZero: true
-            }
+            y: { beginAtZero: true }
         }
     }
 
